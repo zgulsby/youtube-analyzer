@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Wrangler state and logs
+.wrangler/
+*.log
+
+# Environment variables files (though we used secrets, good practice)
+.env
+.env.*
+!.env.example
+
+# Build output (if applicable)
+dist/
+build/ 
